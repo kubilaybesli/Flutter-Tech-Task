@@ -1,0 +1,47 @@
+name: guven_future
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  dio: ^4.0.6
+  provider: ^6.0.4
+  share_plus: ^4.1.0
+  hive_flutter: ^1.1.0
+  path_provider: ^2.0.11
+  cupertino_icons: ^1.0.2
+  webview_flutter: ^3.0.0
+  flutter_slidable: ^2.0.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  build_runner: ^2.3.2
+  hive_generator: ^2.0.0
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+
+  assets:
+
+    - asset/icon/
+    - asset/image/
+
+  fonts:
+    - family: primaryFont
+      fonts:
+        - asset: asset/font/panton_bold.otf
